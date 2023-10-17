@@ -63,7 +63,7 @@ function App() {
         <img src={owaspLogo} alt='OWASP logo' />
       </div>
       <div className='recruit'>
-      <a href="/" class="discoButton"><span>
+      <a href="/" class="discoButton " ><span>
           Register for<br/>Recruitments!
       </span></a>
       </div>

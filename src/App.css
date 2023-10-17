@@ -539,8 +539,13 @@ h2:after {
   }
   .about-heading {
     font-size: 30px;
-    margin-top:600px;
+    
   }
+  
+  .discoButton>span{
+    font-size: 1.0rem;
+  }
+  
   
 
 }
