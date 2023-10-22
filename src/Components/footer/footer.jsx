@@ -20,13 +20,14 @@ function Footer() {
 						<a
 							href="https://www.linkedin.com/in/sanya-gupta-545809229/"
 							target="_blank"
+							rel="noreferrer"
 						>
 							<b>General Secretary</b> : Sanya Gupta
 						</a>
 						<br />
 						{/* <a href="tel:+919674603907"> +91 7275522600</a> */}
 						<br />
-						<a href="mailto:owasptu@gmail.com" target="_blank">
+						<a href="mailto:owasptu@gmail.com" target="_blank" rel='noreferrer'>
 							{' '}
 							owasptu@gmail.com{' '}
 						</a>

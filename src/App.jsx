@@ -80,7 +80,12 @@ function App() {
 					<img src={owaspLogo} alt="OWASP logo" />
 				</div>
 				<div className="recruit">
-					<a href="/" className="discoButton">
+					<a
+						href="http://bit.ly/RecruitmentsBatch27"
+						target="_blank"
+						rel="noreferrer"
+						className="discoButton"
+					>
 						<span>
 							Register for
 							<br />
