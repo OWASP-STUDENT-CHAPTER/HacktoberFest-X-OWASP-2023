@@ -104,18 +104,18 @@ function App() {
 						<p className="about-content">
 							Hacktoberfest&apos;23 marks the 10th edition of Hacktoberfest,
 							organized by DigitalOcean, a month-long celebration of open-source
-							coding and software Team OWASP provides five open source projects
-							to which you can display and contribute - Web-Dev Tasks, Tech
-							Think Tank, Algorithm Visualiser, Tab Saver Extension and
-							Backend-automation NPM. These projects are widely available for
-							contribution by people from various tech stacks. Hack out four
-							pristine pull/merge requests and win exciting goodies and swags!
+							coding and software Team OWASP provides six open source projects
+							to which you can display and contribute - AI Qiuzmaker, Ad-Protect
+							adblocker, Golang POW Blockchain, Arcade Game, Dev-Copilot,
+							Low/No-code. These projects are widely available for contribution
+							by people from various tech stacks. Hack out four pristine
+							pull/merge requests and win exciting goodies and swags!
 						</p>
 					</MyButton>
 				</div>
-				<a href="/pen/" className="discoButton RegistHacto">
+				{/* <a href="/pen/" className="discoButton RegistHacto">
 					<span>Register for HacktoberFest</span>
-				</a>
+				</a> */}
 			</section>
 
 			<DashedSeperator />
@@ -123,33 +123,80 @@ function App() {
 			<section className="projects">
 				<h3 className="about-heading openSrc">Our Open Source Projects</h3>
 				<div className="repos">
-					<Repo src={branch} alt="AI Quizmaker" title="AI Quizmaker" link="https://github.com/OWASP-STUDENT-CHAPTER/Quiz-Craft">
-						Discover the world of interactive and engaging quizzes with this open-source masterpiece. Upload PDFs for summaries and quizzes.
-						<p><strong>Tech-Stack: AI/ML,Python</strong></p>
+					<Repo
+						src={branch}
+						alt="AI Quizmaker"
+						title="AI Quizmaker"
+						link="https://github.com/OWASP-STUDENT-CHAPTER/Quiz-Craft"
+					>
+						Discover the world of interactive and engaging quizzes with this
+						open-source masterpiece. Upload PDFs for summaries and quizzes.
+						<p>
+							<strong>Tech-Stack: AI/ML,Python</strong>
+						</p>
 					</Repo>
-					<Repo src={contribute} alt="Ad-Protect" title="Ad-Protect" link="https://github.com/OWASP-STUDENT-CHAPTER/Ad-Protect">
-						Ad-free surfing is every Internet user&apos;s dream. We present to you the idea that cuts out the ads and brings to you what actually matters.
-						<p><strong>Tech-Stack: Javascript/Typescript </strong></p>
+					<Repo
+						src={contribute}
+						alt="Ad-Protect"
+						title="Ad-Protect"
+						link="https://github.com/OWASP-STUDENT-CHAPTER/Ad-Protect"
+					>
+						Ad-free surfing is every Internet user&apos;s dream. We present to
+						you the idea that cuts out the ads and brings to you what actually
+						matters.
+						<p>
+							<strong>Tech-Stack: Javascript/Typescript </strong>
+						</p>
 					</Repo>
-					<Repo src={pc} alt="Golang PoW Blockchain" title="Golang PoW Blockchain" link="https://github.com/OWASP-STUDENT-CHAPTER/POW-Blockchain">
-						Open-source blockchain in Go language, focusing on PoW, a foundation for cryptocurrencies.
-						<p><strong>Tech-Stack: Golang, Block-chain</strong></p>
+					<Repo
+						src={pc}
+						alt="Golang PoW Blockchain"
+						title="Golang PoW Blockchain"
+						link="https://github.com/OWASP-STUDENT-CHAPTER/POW-Blockchain"
+					>
+						Open-source blockchain in Go language, focusing on PoW, a foundation
+						for cryptocurrencies.
+						<p>
+							<strong>Tech-Stack: Golang, Block-chain</strong>
+						</p>
 					</Repo>
-					<Repo src={flower} alt="Space Invaders Arcade Game" title="Space Invaders Arcade Game" link="https://github.com/OWASP-STUDENT-CHAPTER/Space-Invaders">
-						🚀🕹️ Blast off to the retro gaming galaxy with the Space Invaders Arcade Game!
-						Get ready to defend our planet from the pixelated alien invasion in this open-source classic. Relive the nostalgia and join us in celebrating the fusion of old-school gaming and cutting-edge tech at OWASP Hacktoberfest
-						<p><strong>Tech-Stack: Python/Javascript/C++</strong></p>
+					<Repo
+						src={flower}
+						alt="Space Invaders Arcade Game"
+						title="Space Invaders Arcade Game"
+						link="https://github.com/OWASP-STUDENT-CHAPTER/Space-Invaders"
+					>
+						🚀🕹️ Blast off to the retro gaming galaxy with the Space Invaders
+						Arcade Game! Get ready to defend our planet from the pixelated alien
+						invasion in this open-source classic. Relive the nostalgia and join
+						us in celebrating the fusion of old-school gaming and cutting-edge
+						tech at OWASP Hacktoberfest
+						<p>
+							<strong>Tech-Stack: Python/Javascript/C++</strong>
+						</p>
 					</Repo>
-					<Repo src={branch} alt="Dev Co-pilot" title="Dev Co-pilot" link="https://github.com/OWASP-STUDENT-CHAPTER/AI-Copilot">
-						The AI powered software development system is an advanced tool that employs artificial intelligence to automate various aspects of software development
-						<p><strong>Tech-Stack: Python,LLM,NLP</strong></p>
+					<Repo
+						src={branch}
+						alt="Dev Co-pilot"
+						title="Dev Co-pilot"
+						link="https://github.com/OWASP-STUDENT-CHAPTER/AI-Copilot"
+					>
+						The AI powered software development system is an advanced tool that
+						employs artificial intelligence to automate various aspects of
+						software development
+						<p>
+							<strong>Tech-Stack: Python,LLM,NLP</strong>
+						</p>
 					</Repo>
-					{/* <Repo src={contribute} alt="repo1" title="lorem ipsum" link="/">
-						this web-app is aimed at frontend developers who wish to improve
-						their skills by practicing coding UI elements like buttons, forms,
-						etc., and figuring out the different ways these elements can be
-						created by using various libraries and frameworks.
-					</Repo> */}
+					<Repo
+						src={contribute}
+						alt="Low/No-Code Project"
+						title="Low/No-Code Project"
+						link="/"
+					>
+						Build apps with minimal coding. Empowers all, even without a tech
+						background, to build apps and websites.
+					</Repo>
 				</div>
 			</section>
 
