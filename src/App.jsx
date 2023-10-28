@@ -202,6 +202,20 @@ function App() {
 						Build apps with minimal coding. Empowers all, even without a tech
 						background, to build apps and websites.
 					</Repo>
+
+					<Repo
+						src={pc}
+						alt="Real-Time Trading app"
+						title="Real-Time Trading App"
+						link="/"
+					>
+						This is a project based on MERN stack. The projects aim is to create a real time trading app like zerodha and understand the apps methodology during the making of such app.
+						<p>
+							<strong>Tech-Stack: MongoDB, Express, ReactJs, NodeJs</strong>
+						</p>
+					</Repo>
+
+
 				</div>
 			</section>
 
